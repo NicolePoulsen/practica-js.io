@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+html{
+    font-family: 'Anek Malayalam', sans-serif; 
+    font-size: 60%;
+}
+
+.contenedor{
+    display: flex;
+    /*pone al medio y al centro de tu figura*/
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 2.0rem;
+    border: 1px solid black;
+}
+
+.resultado{
+    padding: 25px 15px;
+    width: 100%;
+    color: rgb(32, 84, 240);
+    text-align: right;
+    border: 1px solid black;
+    /*define que se deber mostrar cuando el contenido se desborda de los extremos e inferior de un elemento de bloque */
+    overflow: auto;
+}
+
+.keypad{
+    display: flex;
+    width: 100%;
+}
+
+.numeros{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.boton{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+}
+
+.boton:hover{
+    filter: brightness(80%);
+    transition: filter .25s;
+}
+
+.largo{
+    width: 50%;
+}
+
+.gris{
+    background-color: bisque;
+}
+
+.amarillo{
+    background-color: cadetblue;
+}
+
+
+h1{
+    text-align: center;
+    color: darkgoldenrod;
+    margin:5px 0;
+}
+
+.menu{
+    text-align: center;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+    background-color: rgb(58, 9, 236);
+}
+
+.menu a{
+    padding: 45px;
+    color: cadetblue;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover{
+    background-color: darkgreen;
+}
