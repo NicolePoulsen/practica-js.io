@@ -1,0 +1,75 @@
+*{
+    color: gray;
+}
+
+nav{
+    background-color: cadetblue;
+}
+
+.menu{
+    text-align: center;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    padding: 45px;
+    color: aquamarine;
+    text-decoration: none;
+    display: block;
+}
+
+.entrada{
+    background-color: darkseagreen;
+    color: aqua;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.contorno{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: chartreuse;
+    text-shadow: 0 0 3px cyan;
+    text-transform: uppercase;
+}
+
+caption{
+    font-size: 25px;
+    color: rgb(14, 95, 88);
+    caption-side: top;
+    text-align: left;
+    
+}
+
+table{
+    width: 0%;
+    margin: 0 auto;
+    border-spacing: 0;
+}
+
+p{
+    color: rgb(4, 66, 35);
+    padding: 5px;
+    border:solid greenyellow;
+    width: 40%;
+    
+}
+
+
+
+img{
+    width: 40%;
+    height: 40%;
+    border:  solid black;
+}
+
+footer{
+    color: cadetblue;
+}
